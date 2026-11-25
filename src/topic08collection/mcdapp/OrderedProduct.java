@@ -1,4 +1,4 @@
-package ch08collection.mcdapp;
+package topic08collection.mcdapp;
 
 public class OrderedProduct {
 	
