@@ -3,8 +3,9 @@ package topic08collection.examples;
 import java.util.*;
 
 /**
- * This class demonstrate the main properties of a set: it keeps insertion order,
- * allows duplicate elements, and gives access to elements by index.
+ * This class demonstrate shows the main property of a Set: every element is 
+ * unique.  It also compares the element order of HashSet, TreeSet and 
+ * LinkedHashSet.
  *
  * @author Emaliana Kasmuri, FTMK, UTeM
  * for BITP 3113 Object Oriented Programming
