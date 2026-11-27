@@ -25,6 +25,8 @@ public class IteratorDemo {
         // Create a list of marks
         List<Integer> marks = new ArrayList<>(
         		Arrays.asList(45, 78, 32, 90, 60));
+        
+        System.out.println("Initial element: " + marks);
 
         // Step 1: get an iterator from the list
         Iterator<Integer> it = marks.iterator();
@@ -37,11 +39,12 @@ public class IteratorDemo {
 
             // Step 4: remove the element through the iterator if it fails
             if (m < 50) {
+            		System.out.println("Remove element less than 50: " + m);
                 it.remove();              
             }
         }
 
         // Display the marks that remain
-        System.out.println(marks);        
+        System.out.println("Final elements: " + marks);        
     }
 }

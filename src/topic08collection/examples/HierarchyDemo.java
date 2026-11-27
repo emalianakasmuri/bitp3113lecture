@@ -32,6 +32,8 @@ public class HierarchyDemo {
         names.add("Anwar Ibrahim");
         names.add("Muhyiddin Yassin");
         names.add("Ismail Sabri");
+        names.add("Lawrence Wong");
+        
 
         // Display the number of elements and check whether an element exists
         System.out.println("Initial data");

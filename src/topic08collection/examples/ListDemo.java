@@ -48,10 +48,11 @@ public class ListDemo {
         fruits.set(0, fruit); 
         System.out.println("\nReplace element at [0] with: " + fruit);
         System.out.println("Elements: " + fruits);
-        System.out.println("Size: " + fruits.size());    
+        System.out.println("Size: " + fruits.size());  
 
         // Remove an element by value (first occurrence only)
         fruit = "Apple"; 
+        fruits.remove(fruit);
         System.out.println("\nRemove : " + fruit);
         System.out.println("Elements: " + fruits);
         System.out.println("Size: " + fruits.size());                      
